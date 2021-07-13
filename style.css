@@ -9,6 +9,9 @@ p + h1 {
   font-family: "Awesome", Arial, Helvetica, sans-serif;
  }
 .images {
-  width: 100px;
-  height: 100px;
+  width: 50;
+  height: 50;
 }
+.conteneur {
+  display: flex;
+  }
