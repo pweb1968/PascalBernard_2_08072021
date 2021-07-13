@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 50px;
+}
+p + h1 {
+  font-family: "Awesome", Arial, Helvetica, sans-serif;
+ }
+.images {
+  width: 100px;
+  height: 100px;
+}
