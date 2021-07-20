@@ -2,16 +2,75 @@
   margin: 0;
   padding: 0;
 }
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+   font-family: "Releway";
+}
 h1 {
-  font-size: 50px;
+  font-family: "Releway";
+  font-size: 19px;
+}
+h2 {
+  text-align: left;
+  font-size: 14px;
 }
 p + h1 {
-  font-family: "Awesome", Arial, Helvetica, sans-serif;
- }
+  position: left;
+  justify-content: center;
+  font-family: "Releway, Arial, Helvetica, sans-serif";
+  text-align: justify;
+}
 .images {
-  width: 50;
-  height: 50;
+  object-fit: cover;
+  border: top;
+  background-color: white;
+  width: 200px;
+  height: 120px;
 }
 .conteneur {
   display: flex;
+  background-color: #f2f2f2;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: 15px;
+  justify-content: center;
+  align-content: center;
+  text-align: justify;
+}
+aside {
+  display: flex;
+  background-color: #f2f2f2;
+  flex-direction: column;
+  font-size: 15px;
+  position: right;
+  text-align: justify;
+}
+
+.section {
+  display: flex;
+  background-color: #f2f2f2;
+  flex-wrap: wrap;
+  flex-direction: row;
   }
+.pre {
+  display: flex;
+  text-align: center;
+}
+.images-container  {
+  display: flex;
+  text-align: center;
+  }
+.front  {
+  display: flex;
+  background-color: lightslategray;
+}
+.box  {
+  border-top: none;
+  display: flex;
+}
+.div  {
+  display: flex;
+  align-items: center;
+}
